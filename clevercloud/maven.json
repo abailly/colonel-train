@@ -1,0 +1,5 @@
+{
+  "deploy": {
+    "goal": "compile -Dcoloneltrain.port=8080 -e -Dmaven.repo.local=$(pwd)/.repository"
+  }
+}
